@@ -489,7 +489,7 @@ rl.on('line', (line) => {
 });
 
 async function start() {
-    const host = process.argv[2] || 'mrim.mail.ru';
+    const host = process.argv[2] || 'proto.mrim.su';
     const port = parseInt(process.argv[3]) || 2042;
     
     console.log(`Запуск MRIM CLI Клиента...`);
